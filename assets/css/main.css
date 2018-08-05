@@ -2541,14 +2541,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 0.25em;
+		/*border-radius: 0.25em;*/
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 0.25em;
+			/* border-radius: 0.25em; */
 			display: block;
 		}
 
@@ -2576,9 +2576,19 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			/* added by me */
+		}
+
+		.special-border  {
+			padding: 2em;
+			background-color: white;
 		}
 
 			.image.fit img {
+				width: 100%;
+			}
+
+			.image.fit video {
 				width: 100%;
 			}
 
